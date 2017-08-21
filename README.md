@@ -4,15 +4,16 @@ An auction server with two auctioneers and multiple bidders, final project of Ad
 ## Setting up the Auction Server
 
 
-Before doing anything change your directory to /advdbproj and compile the code by running "make".
+Before doing anything change your directory to /advdbproj and compile the code.
 
+##
 Run
 
     ./initDB.sh
     
 before the first time you run the auction server. You should have previously created two databases called "advdb1" and "advdb2"
 under the user "postgres" with password "postgres". More info is included in the documentation.
-
+##
 Run
 
     ./driver.sh <arg>
@@ -30,7 +31,7 @@ with argument
 
     run_6b_2a 	: 6 bidders, 3 on each auctioneer. One duplicate name. Two are not interested
 		          on all items.
-
+##
 Run
     
     ./clean.sh
